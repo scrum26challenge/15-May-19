@@ -37,4 +37,8 @@ def first():
         first_col = table.table()
         return jsonify({'first':first_col})
 
+if __name__=='__main__':
+    app.run(debug=True)
+
+
 
