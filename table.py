@@ -24,5 +24,5 @@ def random():
 def normal():
     pass
 
-def hash():
+def hash_algo():
     pass
