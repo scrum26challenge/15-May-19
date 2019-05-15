@@ -17,3 +17,12 @@ def timestamp():
     df = pd.DataFrame(data)
 
     return df
+
+def random():
+    pass
+
+def normal():
+    pass
+
+def hash():
+    pass
