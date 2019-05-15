@@ -3,7 +3,7 @@ import time
 import numpy as np
 import pandas as pd
 
-def table():
+def timestamp():
     dt1 = datetime.datetime(2019,1,11,3)
     dt2 = datetime.datetime(2019,1,15,6)
 
