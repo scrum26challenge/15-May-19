@@ -37,6 +37,21 @@ def first():
         first_col = table.table()
         return jsonify({'first':first_col})
 
+@app.route('/second',methods=['GET','POST'])
+def second():
+    if request.method == 'GET':
+                pass
+
+@app.route('/third',methods=['GET','POST'])
+def third():
+    if request.method == 'GET':
+                pass
+
+@app.route('/fourth',methods=['GET','POST'])
+def fourth():
+    if request.method == 'GET':
+                pass
+
 if __name__=='__main__':
     app.run(debug=True)
 
